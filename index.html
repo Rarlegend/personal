@@ -1,376 +1,196 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-    <title>Home</title>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/contact-form.css">
-    <link rel="stylesheet" href="css/touchTouch.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/jquery.equalheights.js"></script>
-    <script src="js/jquery.mobilemenu.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/touchTouch.jquery.js"></script>
-    <script src="js/TMForm.js"></script>
-    <script src="js/modal.js"></script>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Amanpreet Kandola</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/mail.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
 
-    <script>
-        $(window).load(function(){
-            $().UItoTop({ easingType: 'easeOutQuart' });
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-            $("#owl").owlCarousel({
-                items : 4, //10 items above 1000px browser width
-                itemsDesktop : [995,1], //5 items between 1000px and 901px
-                itemsDesktopSmall : [767, 1], // betweem 900px and 601px
-                itemsTablet: [700, 1], //2 items between 600 and 0
-                itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
-                navigation : true,
-                pagination :  false
-            });
-            $('.gallery .gall_item').touchTouch();
-        });
+		<!-- Home -->
+			<div class="wrapper style1 first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1>Hi. I'm <strong>Amanpreet Kandola</strong>.</h1>
+							</header>
+							<p>I am currently a student at Harvard University. I enjoy working on awesome projects and solving interesting problems.</p>
+							<a href="#portfolio" class="button big scrolly">See my recent projects</a>
+							<br>
+						</div>
+					</div>
+				</article>
+			</div>
 
+		<!-- Portfolio -->
+			<div class="wrapper style3">
+				<article id="portfolio">
+					<header>
+						<h2>Here’s some of the stuff I worked on recently.</h2>
+						<p></p>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a href="ec2-54-174-93-136.compute-1.amazonaws.com" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<h3><a href="ec2-54-174-93-136.compute-1.amazonaws.com">Snapgur</a></h3>
+									<p>Snapchat + Imgur</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="http://meals-to-heal.herokuapp.com/" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="http://meals-to-heal.herokuapp.com/">Meals to Heal</a></h3>
+									<p>Meal Delivery for Restricted Diets</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="http://shipster.co/" class="image featured"><img src="images/shipsterLogo.png" alt="" /></a>
+									<h3><a href="http://shipster.co/">Shipster</a></h3>
+									<p>On-demand Shipping Service</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<br>
+					<header>
+						<h2>A few other things I'm involved in.</h2>
+						<p></p>
+					</header>
+					<div class="container">
+						<center>
+							<div class="row">
+								<div class="4u">
+									<article class="box style2">
+										<a href="http://www.hcs.harvard.edu/bhangra/" class="image featured"><img src="images/hbhangraLogo.png" alt="" /></a>
+										<h3><a href="http://www.hcs.harvard.edu/bhangra/">Bhangra</a></h3>
+										<p>Harvard Bhangra Dance Company</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="box style2">
+										<a href="http://www.hcs.harvard.edu/" class="image featured"><img src="images/hcsLogo.png" alt="" /></a>
+										<h3><a href="http://www.hcs.harvard.edu/">HCS</a></h3>
+										<p>Harvard Computer Society</p>
+									</article>
+								</div>
+							</div>
+						</center>
+					</div>
+					<footer>
+						<p>Want more details?</p>
+						<a href="#contact" class="button big scrolly">Get in touch with me</a>
+					</footer>
+				</article>
+			</div>
 
+		<!-- Contact -->
+			<div class="wrapper style4">
+				<article id="contact" class="container 75%">
+					<header>
+						<h2>Have a cool idea?</h2>
+						<p>Lets get in touch.</p>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post">
+									<div>
+										<div class="row">
+											<div class="6u">
+												<input type="text" name="cf_name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="cf_email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="text" name="cf_subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<textarea name="cf_message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row 200%">
+											<div class="12u">
+												<ul class="actions">
+													<li><input onclick="sendMessage();" type="button" value="Send Message" /></li>
+													<li><input type="reset" value="Clear Form" class="alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li><a href="https://www.facebook.com/profile.php?id=100000101930523" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/rarlegend" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!--
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
 
-    </script>
-    <!--[if lt IE 8]>
-    <div style=' clear: both; text-align:center; position: relative;'>
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-        </a>
-    </div>
-    <![endif]-->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <link rel="stylesheet" media="screen" href="css/ie.css">
-    <![endif]-->
-</head>
-
-<body>
-<!--==============================
-              header
-=================================-->
-<div class="menu_bg"></div>
-<header>
-
-    <div class="navigation single-page-nav">
-        <div class="container_12">
-            <div class="grid_12">
-                <h1 class="logo">
-                    <a href="index.html"><img src="images/logo.png" alt="">
-                    </a>
-                </h1>
-                <nav>
-                    <ul>
-                        <li><a href="#menu" class="current">Menu</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">Sources</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="container_12">
-        <div class="grid_12 ">
-            <h2>We Materialize Your Ideas into Digital Work <br>
-                <span></span>
-            </h2>
-            <a href="/login.html" class="btn">Get Started</a>
-            <div class="socials">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-google-plus"></a>
-            </div>
-        </div>
-        <div class="clear"></div>
-    </div>
-</header>
-<!--=====================
-          Content
-======================-->
-<section id="menu" class="page page_bg__1">
-    <div class="container_12">
-        <div class="grid_12">
-            <h3 class="head__1">Fall Menu</h3>
-            <div id="owl" class="gallery">
-                <div class="item"><a href="images/big1.jpg" class="gall_item"><img src="images/page1_img1.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 1</p>
-                </div>
-                <div class="item"><a href="images/big2.jpg" class="gall_item"><img src="images/page1_img2.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 2</p>
-                </div>
-                <div class="item"><a href="images/big3.jpg" class="gall_item"><img src="images/page1_img3.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 3</p>
-                </div>
-                <div class="item"><a href="images/big4.jpg" class="gall_item"><img src="images/page1_img4.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 4</p>
-                </div>
-                <div class="item"><a href="images/big1.jpg" class="gall_item"><img src="images/page1_img1.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 5</p>
-                </div>
-                <div class="item"><a href="images/big2.jpg" class="gall_item"><img src="images/page1_img2.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 6</p>
-                </div>
-                <div class="item"><a href="images/big3.jpg" class="gall_item"><img src="images/page1_img3.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 7</p>
-                </div>
-                <div class="item"><a href="images/big4.jpg" class="gall_item"><img src="images/page1_img4.jpg" alt=""></a>
-                    <p style="text-align: center; color:#696565">Food 8</p>
-                </div>
-            </div>
-        </div>
-        <div class="clear"></div>
-    </div>
-</section>
-<section id="services" class="page">
-    <div class="container_12"><div class="ic">More Website Templates @ TemplateMonster.com - August26, 2014!</div>
-        <div class="grid_12">
-            <h3>What We Offer</h3>
-        </div>
-        <p style="text-align: center; color:black; font-style:normal; font-size:24px">Meals</p>
-        <p style="text-align: center; color:#696565">We offer highly-customizable, consciously-sourced,
-            nutrient-dense meals based on your personal preferences and dietary needs. Some diets I have experience cooking for:</p>
-        <ul style="list-style: disc">
-            <li>the Selective Carbohydrate Diet</li>
-            <li>Paleo&nbsp;</li>
-            <li>Primal/Weston A. Price's Nourishing Traditions</li>
-            <li>Ketogenic/ High-Fat, Low-Carbohydrate</li>
-            <li>Hypoallergenic</li><li>Low/No-FODMAPs</li>
-            <li>Autoimmune Paleo/Wahls Protocol</li>
-        </ul>
-        <p style="text-align: center; color:black; font-style:normal; font-size:24px">Nutritional Consulting</p>
-        <p style="text-align: center; color:#696565">So, you've just been diagnosed with a health condition...</p>
-        <p style="text-align: center; color:#696565">...and you're totally overwhelmed. All the things you could
-            eat before are off-limits. What do you do? You call us. Get a chef's perspective on how to navigate the
-            grocery store, the kitchen, the farmer's market. We talk, we look through your kitchen. We shop for food.
-            I leave you empowered, with a fridge full of food that's safe for you to eat.  And you'll even get a week
-            of unlimited e-mail support after your consultation. You can even combine your consultation with cooking
-            lessons, so that you feel ready to take on your new lifestyle head-on where it counts: the kitchen. </p>
-        <p style="text-align: center; color:black; font-style:normal; font-size:24px">Special Occasions and Special Requests</p>
-        <p style="text-align: center; color:#696565">We are able to take on a very limited number of special requests,
-            but if you need an autoimmune-friendly holiday meal, paleo truffles for a significant other's birthday, or
-            perhaps an allergy-free engagement dinner for just you and your honey... we might just be able to help you
-            out. Don't hesitate; no request goes unconsidered!</p>
-
-        <!--
-        <div class="grid_9">
-            <div class="serv_links">
-                <a href="#" class="serv"><span>Web</span></a>
-                <a href="#" class="serv"><span>Development</span></a>
-                <a href="#" class="serv"><span>SEO</span></a>
-                <a href="#" class="serv"><span>SEM</span></a>
-                <a href="#" class="serv"><span>Graphic</span></a>
-                <a href="#" class="serv"><span>Ideas</span></a>
-                <a href="#" class="serv"><span>Management</span></a>
-                <a href="#" class="serv"><span>Planning</span></a>
-            </div>
-        </div>
-        <div class="grid_3 fwn">
-            <div class="text1">Say what you need and we’ll do it for you!</div>
-            Read about this <strong><a href="http://blog.templatemonster.com/free-website-templates/" rel="nofollow">free theme</a></strong> on our official blog. <br> To find the whole collection of <strong><a href="http://www.templatemonster.com/properties/topic/design-photography/" rel="nofollow">templates for design companies</a></strong>, visit TemplateMonster.com <br>
-            <a href="#" class="btn">read more</a>
-        </div>
-        -->
-        <div class="clear"></div>
-    </div>
-</section>
-<section id="about" class="page">
-    <div class="about_inset__1">
-        <div class="container_12">
-            <div class="grid_12">
-                <h3 class="head__1">Sources</h3>
-                <!--
-                <div class="story">
-                    <div class="grid_6 alpha">
-                        <div class="block-1">
-                            <time datetime="2014-01-01" class="cornered">Aug 2013</time>
-                            <div class="extra_wrapper">
-                                <div class="text1 tx__1"><a href="#">Here we start</a></div>
-                                Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus libero.
-                            </div>
-                        </div>
-                        <div class="block-1">
-                            <time datetime="2014-01-01" class="cornered">June 2014</time>
-                            <div class="extra_wrapper">
-                                <div class="text1 tx__1"><a href="#">Google I/O Conference</a></div>
-                                Bivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus liberot.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid_6 omega">
-                        <div class="block-1 inset__1">
-                            <time datetime="2014-01-01" class="cornered">Sept 2013</time>
-                            <div class="extra_wrapper">
-                                <div class="text1 tx__1"><a href="#">The major projects</a></div>
-                                Mivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus libere.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-
-                    <div class="cornered pos__1">Our Story <br> Goes On</div>
-                </div>
-                -->
-                <p style="text-align: center; color:#696565">We're big fans of local farms and butcher shops.
-                    Here are a few we frequently source from:</p>
-                <ul>
-                    <li>The Meat Hook</li>
-                    <li>Fleisher's Pastured Meats&nbsp;</li>
-                    <li>Arcadian Pastures</li>
-                    <li>Migliorelli Farms</li>
-                    <li>Fishkill Farms</li>
-                    <li>Kernan Farmsl</li>
-                    <li>S & SO Farms</li>
-                    <li>Van Houten Farmss</li>
-                    <li>Quattro's Game Farm & Store</li>
-                    <li>Paffenroth Gardens</li>
-                    <li>Rogowski Farms</li>
-                    <li>Phillips Farmss</li>
-                </ul>
-                <div class="clear"></div>
-            </div>      <div class="clear"></div>
-
-        </div>
-    </div>
-    <div class="about_bg__1">
-        <div class="container_12">
-            <div class="grid_12">
-                <h3 class="head__1">Our Team</h3>
-                <div class="grid_9 alpha">
-                    <div class="team">
-                        <a href="#" class="team_item"><img src="images/corner_img1.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img2.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img3.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img4.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img5.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img6.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img7.png" alt=""></a>
-                        <a href="#" class="team_item"><img src="images/corner_img8.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="grid_3 omega">
-                    <div class="text2">We are glad to meet you!</div>
-                    <div class="fwn">Vivamus at magna non nunc tristique rhoncus. Aliquamero nibh ante, egestas id dictum a commodo luctus libero</div>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </div>
-</section>
-<section id="contacts" class="page">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
-    <div class="contacts_bg">
-        <div class="container_12">
-            <div class="grid_12">
-                <h3 class="head__1">Contacts</h3>
-            </div>
-            <div class="grid_5">
-                <div class="text2">Our Address</div>
-                <p class="fz__1">Lorem ipsum dolor sit amet, consecteturpiscinger elit um dolor sit amet, consecteturpiscing. </p>
-                <p>Our <strong><a href="http://www.templatemonster.com/" rel="nofollow">premium templates</a></strong> go with 24/7 support. </p>
-                <p>If you have any questions about customization of <strong><a href="http://blog.templatemonster.com/free-website-templates/ " rel="nofollow">freebies</a></strong>, address to <strong><a href="http://www.templatetuning.com/" rel="nofollow">TemplateTuning</a></strong>. Note that it's a paid service.</p>
-                The Company Name Inc. <br>
-                9870 St Vincent Place, <br>
-                Glasgow, DC 45 Fr 45. <br>
-                Telephone: +1 800 603 6035 <br>
-                FAX: +1 800 889 9898 <br>
-                E-mail: <a href="#">mail@demolink.org</a>
-            </div>
-            <div class="grid_6 prefix_1">
-                <div class="text2">Write Us</div>
-                <form id="contact-form">
-                    <div class="contact-form-loader"></div>
-                    <fieldset>
-                        <label class="name">
-                            <input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters">
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid name.</span>
-                        </label>
-
-                        <label class="email">
-                            <input type="text" name="email" placeholder="E-mail:" value="" data-constraints="@Required @Email">
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid email.</span>
-                        </label>
-                        <label class="phone">
-                            <input type="text" name="phone" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers">
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*This is not a valid phone.</span>
-                        </label>
-
-                        <label class="message">
-                            <textarea name="message" placeholder="Message:" data-constraints="@Required @Length(min=20,max=999999)"></textarea>
-                            <span class="empty-message">*This field is required.</span>
-                            <span class="error-message">*The message is too short.</span>
-                        </label>
-                        <div class="ta__right">
-                            <a href="#" class="btn" data-type="reset">clear </a>
-                            <a href="#" class="btn" data-type="submit">send </a>
-                        </div>
-                    </fieldset>
-                    <div class="modal fade response-message">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    <h4 class="modal-title">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    You message has been sent! We will be in touch soon.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="clear"></div>
-    </div>
-</section>
-<!--==============================
-              footer
-=================================-->
-<footer id="footer">
-    <div class="container_12">
-        <div class="grid_12">
-            <div class="copyright"><span class="color1">DSGN</span> © <span id="copyright-year">2014</span> | <a href="#">Privacy Policy </a>
-                <div class="sub-copy">Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="clear"></div>
-</footer>
-<a href="#" id="toTop" class="fa fa-chevron-up"></a>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script>
-
-    // Prevent console.log from generating errors in IE for the purposes of the demo
-    if ( ! window.console ) console = { log: function(){} };
-
-    // The actual plugin
-    $('.single-page-nav').singlePageNav({
-        offset: $('.single-page-nav').outerHeight(),
-        filter: ':not(.external)',
-        updateHash: true,
-        beforeStart: function() {
-            console.log('begin scrolling');
-        },
-        onComplete: function() {
-            console.log('done scrolling');
-        }
-    });
-</script>
-
-
-
-</body></html>
-
+	</body>
+</html>
